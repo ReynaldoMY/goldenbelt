@@ -1,0 +1,2 @@
+/Users/marcocaldas/Desarrollo/app/goldenbelt/android/app/.cxx/RelWithDebInfo/5o5t2n3j/x86_64/CMakeFiles/edit_cache.dir
+/Users/marcocaldas/Desarrollo/app/goldenbelt/android/app/.cxx/RelWithDebInfo/5o5t2n3j/x86_64/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "436089005733",
+    "project_id": "goldenbelt-942ae",
+    "storage_bucket": "goldenbelt-942ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436089005733:android:597855e2d7163375c30f4c",
+        "android_client_info": {
+          "package_name": "com.app.goldenbelt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrHy7OzZPajcOd-Rmz-F49PGiUE8PUhps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436089005733:android:a7c72aa6845e5fbec30f4c",
+        "android_client_info": {
+          "package_name": "com.example.goldenbelt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrHy7OzZPajcOd-Rmz-F49PGiUE8PUhps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

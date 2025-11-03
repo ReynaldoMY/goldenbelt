@@ -1,0 +1,1 @@
+/Users/marcocaldas/Desarrollo/app/goldenbelt/build/app/intermediates/cxx/RelWithDebInfo/586c431s/obj/arm64-v8a

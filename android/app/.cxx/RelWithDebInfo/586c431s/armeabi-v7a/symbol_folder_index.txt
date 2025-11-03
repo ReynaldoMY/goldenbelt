@@ -1,0 +1,1 @@
+/Users/marcocaldas/Desarrollo/app/goldenbelt/build/app/intermediates/cxx/RelWithDebInfo/586c431s/obj/armeabi-v7a
