@@ -1,0 +1,18 @@
+# Flutter
+.dart_tool/
+.buildlog/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Builds
+build/
+**/build/
+*.aab
+*.apk
+*.ipa
+
+# IDEs
+.idea/
+.vscode/
