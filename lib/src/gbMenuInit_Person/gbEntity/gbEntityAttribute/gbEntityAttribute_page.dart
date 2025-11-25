@@ -82,7 +82,6 @@ class _gbEntityAttributeState extends State<gbEntityAttribute_page> {
                   Icons.picture_as_pdf_rounded
               ),
               onPressed: () {
-
                 get_gbEntityS3SignedUrl().then((_) {
 
                   Navigator.of(context).push
@@ -106,7 +105,6 @@ class _gbEntityAttributeState extends State<gbEntityAttribute_page> {
                   Icons.attach_file
               ),
               onPressed: () {
-
                 get_gbEntityS3SignedUrl().then((_) {
 
                   Navigator.of(context).push

@@ -19,7 +19,7 @@ class FileDownload {
 
   void startDownloading(pv_fileName, pv_url, BuildContext context,
       final Function okCallback) async {
-    String fileName = pv_fileName;
+    String fileName = (pv_fileName == "") ? "archivo_descarga.docx" : pv_fileName;
     String baseUrl = pv_url;
     String path = await gbFileHandler().getLocalFilePath(fileName);
 
@@ -76,6 +76,9 @@ class _gbDocumentDownload_pageState extends State<gbDocumentDownload_page> {
 
   @override
   void initState() {
+    print(widget.title);
+    print(widget.url);
+    print(widget.tdocument_id);
     super.initState();
     get_gbEntitySpecificDocumentData();
   }
@@ -203,13 +206,26 @@ class _gbDocumentDownload_pageState extends State<gbDocumentDownload_page> {
     );
   }
 
-  static Future<bool> _permissionRequest() async {
+  /*static Future<bool> _permissionRequest() async {
     PermissionStatus result;
     result = await Permission.storage.request();
     if (result.isGranted) {
       return true;
     } else {
       return false;
+    }
+  }*/
+  static Future<bool> _permissionRequest() async {
+    if (Platform.isAndroid) {
+      if (await Permission.manageExternalStorage.isGranted) {
+        return true;
+      }
+
+      var status = await Permission.manageExternalStorage.request();
+      return status.isGranted;
+    } else {
+      // En iOS u otros, no se requiere este permiso
+      return true;
     }
   }
 }

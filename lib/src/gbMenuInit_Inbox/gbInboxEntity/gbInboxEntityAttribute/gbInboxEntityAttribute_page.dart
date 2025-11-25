@@ -115,7 +115,6 @@ class _gbInboxEntityAttributeState extends State<gbInboxEntityAttribute_page> {
                 onPressed: () {
                   var lv_tentity_id = widget.tentity_id.substring(widget.tentity_id.indexOf('-') + 1);
                   get_gbEntityS3SignedUrl(lv_tentity_id).then((_) {
-
                     Navigator.of(context).push
                       (MaterialPageRoute(builder: (context) =>
 

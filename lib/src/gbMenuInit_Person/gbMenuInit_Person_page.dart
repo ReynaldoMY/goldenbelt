@@ -40,7 +40,6 @@ class _gbPersonFrontPageState extends State<gbPersonFrontPage> {
 
   @override
   void initState() {
-
     super.initState();
     validateVersionUpdate();
     gbSessionSettings.configurePrefs();
